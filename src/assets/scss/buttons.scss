@@ -1,0 +1,58 @@
+@import "./variables.scss";
+
+.white {
+  background-color: #fff;
+  border: solid 1px $secondary-light-gray;
+
+  .btn__link {
+    color: $primary-black;
+  }
+}
+
+.black {
+  background-color: $primary-black;
+
+  .btn__link {
+    color: #fff;
+  }
+}
+
+.right {
+  justify-content: flex-end;
+
+  .btn__arrow {
+    margin-left: 20px;
+  }
+}
+
+.left {
+  justify-content: flex-start;
+
+  .btn__arrow {
+    margin-right: 20px;
+  }
+}
+
+.center {
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    font-family: $secondary-font;
+    font-size: $h3-size;
+    font-weight: $font-weight-medium;
+  }
+
+}
+
+.double__btn {
+  display: flex;
+  width: 300px;
+}
